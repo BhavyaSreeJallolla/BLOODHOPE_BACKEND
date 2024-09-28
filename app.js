@@ -12,7 +12,7 @@ const needPersonRoutes = require('./routes/needPersonRoutes');
 const bloodBankRoutes = require('./routes/bloodBankRoutes');
 
 // Import middlewares
-const errorHandler = require('./Middlewares/errorHandler');
+const errorHandler = require('./middlewares/errorHandler');
 const logger = require('./utils/logger');
 
 // Initialize dotenv
